@@ -1,0 +1,19 @@
+Lab-2: Structured Programming in Java - II
+
+Objectives
+You will learn:
+1. Declaring and initializing arrays
+2. Comparing input to array elements.
+3. Preventing array out-of-bounds errors
+
+Exercise
+
+1. Create a 1x8 vector of integers. Write a program with two methods; the first method finds 
+the number “5” in the vector. The other method counts the odd numbers in vector. Print all 
+results.
+
+2. Given two Arrays A= {2,4,7,8,3) and B={11,3,2,12,13). Write a program that find the common 
+numbers in both arrays. Print the values in a new array “C”
+
+3. Write a program that input two arrays and print the difference C = A-B, i.e. the values in A 
+that is not in B
