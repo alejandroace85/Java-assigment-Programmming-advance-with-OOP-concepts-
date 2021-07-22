@@ -1,0 +1,22 @@
+Classes and Objects
+
+Objectives
+1. Create class and methods
+2. Testing classes
+3. Accessing instance variables.
+4. Use variables and methods
+
+Exercises
+1. Given the array A= [ 2, -3, 4, -10, 1, -1, 2, -3]. Write a program in Java that perform three tasks using 
+the following methods:
+a. int suma() : Sum the positive numbers
+b. Int Posicion(): Find the position of the element -1
+c. Int Operacion(): Find the operation M = (sum negative numbers) x 2
+Create two classes: one containing the methods and other that test all methods with objects. Print all 
+results
+
+2. Using the previous example perform the following changes:
+a. Create a constructor with initialize el array with the elements [22 1 0 -8 -1 3 3 1 22 3 1]
+b. In addition to the previous methods, create a method that find the frequency that every element
+in the array are repeated(for example element 22 is repeated two times )
+Create a “test class” and print all result
