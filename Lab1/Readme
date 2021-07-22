@@ -1,0 +1,71 @@
+Lab-1 Java as Structured programming
+Objectives
+Compiling and executing Java exercises using loop statements and arrays 
+Theory
+Making an array in a Java program involves three distinct steps:
+1. Declare the array name.
+2. Create the array.
+3. Initialize the array values.
+We refer to an array element by putting its index in square brackets after the array name: the code a[i] 
+refers to element i of array a[]. For example, the following code makes an array of n numbers of type 
+double, all initialized to 0:
+double[] a; // declare the array
+a = new double[n]; // create the array
+for (int i = 0; i < n; i++) // elements are indexed from 0 to n-1
+ a[i] = 0.0; // initialize all elements to 0.0
+Run the following example for more details. Once complete, then continue to next part of the lab
+public class ArrayEjemplo {
+ public static void main(String[] args) {
+ int n = 7;
+ // initialize to random values between 0 and 1
+ float[] a = new float[n];
+ for (int i = 0; i < n; i++) {
+ a[i] = 2*i+3;
+ }
+ // print array values, one per line
+ System.out.println("a[] = ");
+ 
+ for (int i = 0; i < n; i++) {
+ System.out.println(a[i]);
+ }
+ System.out.println();
+ System.out.println();
+ // find the maximum
+ double max = a[0];
+ for (int i = 0; i < n; i++) {
+ if (a[i] > max) max = a[i];
+ } System.out.println("max = " + max);
+ // average
+ double sum = 0.0;
+ for (int i = 0; i < n; i++) {
+ sum += a[i];
+ }
+ System.out.println("average = " + sum / n);
+ // copy to another array
+ double[] b = new double[n];
+ for (int i = 0; i < n; i++) {
+ b[i] = a[i];
+ }
+ 
+ // dot product of a[] and b[]
+ double dotProduct = 0.0;
+ for (int i = 0; i < n; i++) {
+ dotProduct += a[i] * b[i];
+ }
+ System.out.println("dot product of a[] and b[] = " + dotProduct);
+ }
+}
+
+Exercises
+This Section is intended to star in lab session, but you need to complete out the class and deliver the 
+next lab-session.
+1. Write an application that inputs five integers from the user and displays the positive numbers 
+greater than 10. If no numbers exists, print the message “No hay numero” (there is no number)
+
+2. Given and array of 10 numbers, write a program that finds the two smallest numbers. In 
+addition, the program should return the index of the numbers.
+
+3. Given the following array: A = {95,70, 65,45, 85,100}
+Assume that the array represents the final grades of six students. The grades are reported 
+according to the following standard grading system: A (90-100), B (80-89), C (70-79), D (60-69), F (0-
+59). Write a program that print the letters of each grade
