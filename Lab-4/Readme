@@ -1,0 +1,30 @@
+Lab-3 Classes and Objects
+Objectives
+1. Create class and methods
+2. Testing classes
+3. Accessing instance variables.
+4. Use variables and methods
+
+Exercises
+1. Create a program that find the area of a triangle using a method named area(double base, double 
+altura). 
+
+The class “triangulo.java” has two constructor:
+public triangulo(): initialize the “base” and “altura” of the 
+triangle(dafault)
+public triangulo(int b,int h): initialize the base and “altura”. The values 
+are entered by keyboard
+
+Test the program creating two objects. The first object use the constructor triangulo () and the 
+second object the constructor triangulo (int base, int altura). 
+
+2. Write a program named “arreglo.java” that find the average and the maximum value in an array 
+of five integers (positives and negatives). The class contains a static variable named sum that 
+contains the sum of elements of the array. The program has two constructors:
+
+public arreglo (): initialize the array in this method
+public arreglo (int a[]): initialize the array. The array is entered by user in 
+the test program.
+
+In addition, create the static method positivos () that find the number of positive numbers.
+Test the program with three objects using the two constructors. Print all results.
