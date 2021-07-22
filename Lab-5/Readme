@@ -1,0 +1,26 @@
+Write a program in Java as describe by the diagram below. (inheritance uml diagram) note: (circulo means circle)
+
+circulo
+int r
+circulo (int a)
+area () area = pi 3.14 r^2
+get Radius()
+set Radius(int r)
+/\
+|
+|
+|
+circulo2
+int m
+circulo (int a, int m)
+long()  //Log = area() + m
+/\
+|
+|
+|
+circulo 3
+int P
+circulo 3 (int a, int b, int c)
+play() // play = long / P
+
+In addition, use a static variable to show the number of objects create in the main method. (optional)
